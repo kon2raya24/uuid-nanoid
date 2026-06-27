@@ -20,3 +20,11 @@ npm install uuid-nanoid
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'uuid-nanoid';
+// See API section for available functions
+```
