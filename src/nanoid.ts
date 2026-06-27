@@ -1,3 +1,7 @@
+/**
+ * nanoid
+ * @param size = 21
+ */
 export function nanoid(size = 21): string {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_";
   let id = "";
