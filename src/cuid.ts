@@ -1,6 +1,9 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * cuid
+ */
 export function cuid(): string {
   const timestamp = Date.now().toString(36);
   const counter = (globalThis as any).__cuid_counter = ((globalThis as any).__cuid_counter || 0) + 1;
